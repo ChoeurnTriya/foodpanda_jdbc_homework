@@ -9,9 +9,9 @@ public class DBUtil {
     public static Connection connection;
     public static Connection getConnection() throws DBException {
         try {
-            String url = "jdbc:postgresql://localhost:5433/foodpanda_db";
+            String url = "jdbc:postgresql://localhost:5432/food_panda";
             String username = "postgres";
-            String password = "221198";
+            String password = "Keng25256";
             connection = DriverManager.getConnection(
                     url, username, password
             );
